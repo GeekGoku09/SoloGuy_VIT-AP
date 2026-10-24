@@ -1,0 +1,18 @@
+# Priors for synthetic data generation reflecting Indian demographic/physiological profiles
+source: illustrative
+demographics:
+  age_mean: 48.0
+  age_std: 10.0
+  bmi_mean: 26.5
+  bmi_std: 3.5
+  prediabetes_prev: 0.45
+  t2d_prev: 0.35
+  normal_prev: 0.20
+  family_history_prob: 0.55
+  tcf7l2_risk_allele_freq: 0.38
+
+physiology:
+  hba1c_normal: [4.8, 5.6]
+  hba1c_prediabetes: [5.7, 6.4]
+  hba1c_t2d: [6.5, 10.5]
+  fasting_glucose_base: 90.0

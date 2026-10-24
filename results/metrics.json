@@ -1,0 +1,67 @@
+{
+  "dataset_type": "SYNTHETIC",
+  "total_samples": 9512,
+  "prevalence_pct": 20.66,
+  "models": [
+    {
+      "model": "B0_Trend",
+      "pr_auc": 0.3387,
+      "pr_auc_ci": "[0.2283-0.461]",
+      "roc_auc": 0.6669,
+      "roc_auc_ci": "[0.6007-0.7495]",
+      "brier": 0.1869,
+      "false_alerts_per_day": 1.79,
+      "sensitivity": 0.1115
+    },
+    {
+      "model": "B1_CGM",
+      "pr_auc": 0.6107,
+      "pr_auc_ci": "[0.4999-0.7019]",
+      "roc_auc": 0.8369,
+      "roc_auc_ci": "[0.7794-0.8803]",
+      "brier": 0.1502,
+      "false_alerts_per_day": 3.228,
+      "sensitivity": 0.2087
+    },
+    {
+      "model": "B2_Meals",
+      "pr_auc": 0.6538,
+      "pr_auc_ci": "[0.5766-0.7332]",
+      "roc_auc": 0.8513,
+      "roc_auc_ci": "[0.8002-0.8925]",
+      "brier": 0.1418,
+      "false_alerts_per_day": 2.858,
+      "sensitivity": 0.2112
+    },
+    {
+      "model": "B3_Wearable",
+      "pr_auc": 0.8098,
+      "pr_auc_ci": "[0.6476-0.9436]",
+      "roc_auc": 0.9317,
+      "roc_auc_ci": "[0.8767-0.9753]",
+      "brier": 0.0867,
+      "false_alerts_per_day": 2.007,
+      "sensitivity": 0.2275
+    },
+    {
+      "model": "B4_EHR",
+      "pr_auc": 0.6485,
+      "pr_auc_ci": "[0.5633-0.7328]",
+      "roc_auc": 0.8523,
+      "roc_auc_ci": "[0.8007-0.8942]",
+      "brier": 0.1531,
+      "false_alerts_per_day": 3.364,
+      "sensitivity": 0.2219
+    },
+    {
+      "model": "B5_FullFusion",
+      "pr_auc": 0.7773,
+      "pr_auc_ci": "[0.5582-0.939]",
+      "roc_auc": 0.9254,
+      "roc_auc_ci": "[0.8669-0.971]",
+      "brier": 0.0873,
+      "false_alerts_per_day": 2.007,
+      "sensitivity": 0.2244
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+# Preset Indian meals with macronutrient composition
+meals:
+  roti_dal:
+    name: "2 Roti + Dal + Sabzi"
+    carbs_g: 55.0
+    protein_g: 14.0
+    fat_g: 10.0
+    fiber_g: 8.0
+    kcal: 366.0
+  rice_sambar:
+    name: "Steamed Rice + Sambar + Poriyal"
+    carbs_g: 75.0
+    protein_g: 12.0
+    fat_g: 8.0
+    fiber_g: 6.0
+    kcal: 420.0
+  idli_chutney:
+    name: "3 Idli + Sambar + Coconut Chutney"
+    carbs_g: 60.0
+    protein_g: 10.0
+    fat_g: 12.0
+    fiber_g: 5.0
+    kcal: 388.0
+  poha:
+    name: "Poha with Peanuts"
+    carbs_g: 45.0
+    protein_g: 7.0
+    fat_g: 11.0
+    fiber_g: 4.0
+    kcal: 307.0
+  biryani:
+    name: "Chicken Biryani + Raita"
+    carbs_g: 85.0
+    protein_g: 28.0
+    fat_g: 22.0
+    fiber_g: 4.0
+    kcal: 650.0
+  gulab_jamun:
+    name: "2 Gulab Jamun (Dessert)"
+    carbs_g: 50.0
+    protein_g: 3.0
+    fat_g: 14.0
+    fiber_g: 0.5
+    kcal: 338.0

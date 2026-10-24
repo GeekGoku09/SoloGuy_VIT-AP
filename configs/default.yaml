@@ -1,0 +1,21 @@
+# Configuration for PoC Digital Twin
+target:
+  threshold_mgdl: 180.0
+  horizon_minutes: 120
+  decision_interval_minutes: 15
+  cooldown_minutes: 60
+  eval_gap_max_minutes: 15
+
+seeds:
+  global: 42
+
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  sample_data: "data/sample"
+  results: "results"
+  figures: "results/figures"
+
+evaluation:
+  bootstrap_samples: 200
+  target_far_per_day: 0.5

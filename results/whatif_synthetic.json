@@ -1,0 +1,6 @@
+{
+  "intervention": "post_meal_walk_15m",
+  "ground_truth_delta_mgdl": -18.0,
+  "predicted_delta_mgdl": -18.0,
+  "mae_mgdl": 0.0
+}

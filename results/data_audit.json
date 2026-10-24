@@ -1,0 +1,23 @@
+{
+  "num_patients": 12,
+  "total_readings": 48384,
+  "valid_glucose_readings": 47401,
+  "coverage_pct": 97.97,
+  "glucose_stats": {
+    "mean": 169.36,
+    "std": 53.88,
+    "median": 155.74,
+    "p25": 129.22,
+    "p75": 206.71
+  },
+  "event_prevalence": {
+    "gt_140_mgdl_pct": 58.96,
+    "gt_160_mgdl_pct": 46.72,
+    "gt_180_mgdl_pct": 39.48
+  },
+  "cohort_breakdown": {
+    "t2d": 5,
+    "prediabetes": 4,
+    "normal": 3
+  }
+}

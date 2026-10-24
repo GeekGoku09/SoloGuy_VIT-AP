@@ -1,0 +1,5 @@
+{
+  "gru_loss": 0.4807,
+  "big_ideas_domain_shift_auc_drop": -0.045,
+  "note": "PyTorch GRU evaluated on synthetic time-series slice. LightGBM baseline maintained as primary model on inner validation."
+}

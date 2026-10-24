@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+data/raw/
+data/processed/
+*.egg-info/
+dist/
+build/
+results/figures/*.png
+results/figures/*.pdf

@@ -1,0 +1,8 @@
+project_name: "digital-twin-t2d"
+team_name: "TEAM_NAME"
+year: 2026
+context: "Prediabetes and Type 2 Diabetes (T2D) in India"
+headline_datasets:
+  - CGMacros
+  - BIG_IDEAs
+  - ShanghaiT2DM

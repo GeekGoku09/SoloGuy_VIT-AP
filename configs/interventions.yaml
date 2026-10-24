@@ -1,0 +1,16 @@
+# Intervention mechanics for what-if simulation
+interventions:
+  post_meal_walk_15m:
+    name: "15-min Post-Meal Walk"
+    carbs_reduction_pct: 0.15
+    glucose_delta_peak_mgdl: -18.0
+    provenance: illustrative_default
+  swap_to_low_gi:
+    name: "Swap High-GI Meal for Low-GI Roti + Dal"
+    carbs_reduction_pct: 0.25
+    glucose_delta_peak_mgdl: -28.0
+    provenance: illustrative_default
+  shift_dinner_earlier:
+    name: "Shift Dinner 2 Hours Earlier"
+    glucose_delta_peak_mgdl: -12.0
+    provenance: illustrative_default
